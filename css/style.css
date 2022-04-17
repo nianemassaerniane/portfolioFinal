@@ -426,3 +426,227 @@ h1 {
 .label-skill {
     font-size: 24px;
 }
+
+/*------------ Section experience travail --------- */
+
+.travail-exp {
+    width: calc(100% - 300px);
+    height: auto;
+    margin-left: auto;
+    padding-bottom: 100px;
+}
+
+.titre-travail-exp {
+    text-align: center;
+    margin: 70px 0;
+    font-size: 40px;
+    color: #333;
+}
+.cont-exp-travail {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.barre-verticale {
+    height: 1000px;
+    width: 5px;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: -30px;
+}
+.boule-ico {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #333;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boule-ico img {
+    width: 25px;
+}
+
+.flex-cont-bloc-exp {
+    width: 800px;
+    flex-shrink: 1;
+    height: 1000px;
+    position: relative;
+}
+.bloc {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 37.5px;
+    cursor: pointer;
+    border: 1px solid #333;
+    position: relative;
+}
+.contenu-bloc {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    background: white;
+    transition: transform 0.25s ease-in-out;
+    position: relative;
+    transform: translate(10px, -10px);
+}
+.contenu-bloc:hover {
+    transform: translate(0,0);
+}
+.bloc1 {
+    background: #fb97a0;
+}
+.bloc2 {
+    background: #bfe2ca;
+}
+.bloc3 {
+    background: #a6daef;
+}
+.bloc4 {
+    background: #d0e2ec;
+}
+.titre-section-bloc {
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+/* Section Parallax */
+.section-parallax {
+    width: 100%;
+    height: 250px;
+    background: url(https://images.unsplash.com/photo-1596003906949-67221c37965c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80) no-repeat right / cover fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px dashed #333;
+    border-bottom: 1px dashed #333;
+    color: white;
+}
+.txt-par {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 50px;
+}
+.txt-par:nth-child(1){
+    padding-left: 300px;
+}
+
+
+/* Section Contact */
+
+.section-contact {
+    width: 100%; 
+    height: auto;
+}
+.section-contact h2 {
+    text-align: center;
+    color: #333;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    padding: 70px 0 0 300px;
+}
+.section-contact h2 strong {
+    font-weight: 900;
+}
+
+.container-form {
+    margin: 0 auto;
+    width: 70%;
+    padding-left: 300px;
+}
+.form-groupe {
+    position: relative;
+    display: flex;
+    margin-bottom: 45px;
+}
+.form-groupe label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: #aaa;
+    font-size: 20px;
+    transition: 0.4s ease-out;
+}
+.form-groupe input {
+    display: block;
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 3px solid #aaa;
+    color: #666;
+    font-size: 20px;
+    transition: 0.4s ease-out;
+}
+textarea {
+    width: 100%;
+    height: 200px;
+    border: none;
+    border: 3px solid #aaa;
+    border-radius: 3px;
+    padding: 5px;
+    resize: none;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s all ease-out;
+    background: #f1f1f1;
+}
+textarea::placeholder {
+    font-size: 20px;
+    opacity: 0.5;
+}
+textarea:focus {
+    border-color: #8b97d7;
+}
+
+.form-groupe:nth-child(4) {
+    margin-bottom: 25px;
+    justify-content: flex-start;
+}
+
+.form-groupe .button-sub {
+    display: block;
+    width: auto;
+    padding: 15px 60px;
+    border: 3px solid rgb(144,144,144);
+    border-radius: 999px;
+    background-image: linear-gradient(to right, transparent 50%, rgb(65,65,65) 50%, rgb(134,134,134));
+    background-size: 200%;
+    color: #333;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.form-groupe .button-sub:hover {
+    color: #fff;
+    background-position: 100%;
+    border: 3px solid #fff;
+}
+
+/* Animation Contact */
+
+.form-groupe:focus-within label,
+.form-groupe.animation label {
+    top: 0px;
+    transform: translateY(-100%);
+    color: #8b97d7;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 300px;
+}

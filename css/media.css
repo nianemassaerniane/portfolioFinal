@@ -394,3 +394,96 @@
         width: 300px;
     }
 }
+
+/* Media section travail exp */
+@media screen and (max-width: 1300px) {
+    .travail-exp {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 950px) {
+
+    .barre-verticale {
+        height: 1200px;
+    }
+    .bloc {
+        height: 250px;
+        margin-bottom: 37.5px;
+    }
+    .barre-verticale{
+        margin-left: 60px;
+    }
+    .flex-cont-bloc-exp {
+        margin-right: 30px;
+    }
+
+}
+
+@media screen and (max-width: 520px) {
+
+    .txt-section  {
+        font-size: 16px;
+    }
+    .bloc {
+        height: 400px;
+    }
+    .barre-verticale {
+        height: 1800px;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+
+        .txt-section {
+            font-size: 15px;
+        }
+
+}
+
+@media screen and (max-width: 1300px) {
+    .txt-par {
+        font-size: 25px;
+        margin: 0 30px;
+    }
+    .txt-par:nth-child(1) {
+        padding-left: 0px;
+    }
+    
+}
+@media screen and (max-width: 700px) {
+
+.txt-par {
+    font-size: 22px;
+    margin: 0 25px;
+}
+}
+@media screen and (max-width: 550px) {
+
+    .section-parallax {
+        flex-direction: column;
+    }
+    .txt-par {
+        font-size: 20px;
+        margin: 20px 0px;
+    }
+
+}
+
+@media screen and (max-width: 1300px) {
+    .section-contact h2 {
+        padding: 70px 0 0 0;
+    }
+    .container-form{
+        padding-left: 0;
+    }
+    .form-groupe:nth-child(4){
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    footer {
+        padding-left: 0px;
+    }
+}
