@@ -419,10 +419,10 @@
 
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 728px) {
 
     .txt-section  {
-        font-size: 16px;
+        font-size: 13px;
     }
     .bloc {
         height: 400px;
@@ -436,7 +436,7 @@
 @media screen and (max-width: 380px) {
 
         .txt-section {
-            font-size: 15px;
+            font-size: 10px;
         }
 
 }
